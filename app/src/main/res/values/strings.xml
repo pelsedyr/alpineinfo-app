@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">Fnugg.no</string>
+    <string name="app_name" translatable="false">Fnugg</string>
     <string name="REFRESHING">Refreshing</string>
     <string name="NETWORK_ERROR">Network Error</string>
     <string name="NETWORK_ERROR_TIP">Please check your network connection.</string>
@@ -40,4 +40,5 @@
     <string name="ABOUT_THE_RESORT">About the Resort</string>
     <string name="HELP_TEXT">This application aggregates data from webservices fungg.no and yr.no. Author of this application is not by any means affiliated with those services. Therefore quality of the received data is strictly dependent on the data provided by those services. Data used in this application is constantly updated by the ski-resorts themselves and there always exists possibility for some parts of data can be incorrectly formatted or be absent. If an image is missing it will be replaced by the fnugg.no logotype, and for absent weather forecast the {gmd-cloud-off} icon is used.</string>
     <string name="RESORT_LINK_TEXT">Web Page</string>
+    <string name="banner_ad_unit_id">ca-app-pub-2227695112173566/3216047334</string>
 </resources>

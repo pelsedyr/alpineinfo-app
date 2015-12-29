@@ -26,6 +26,8 @@ import com.example.s198569.fnuggno.model.pojo.ResponseHuge;
 import com.example.s198569.fnuggno.model.utilities.Constants;
 import com.example.s198569.fnuggno.model.pojo.ResortWrapper;
 import com.example.s198569.fnuggno.model.utilities.SpinnerNavItem;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.gson.Gson;
 import com.loopj.android.http.AsyncHttpClient;
@@ -87,6 +89,20 @@ public class MainActivity extends AppCompatActivity implements ActionBar.OnNavig
                 swipeRefreshLayout.setEnabled((topRowVerticalPosition >= 0));
             }
         });
+
+
+
+        //Ads
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build(); //For live Ad
+
+//        AdRequest adRequest = new AdRequest.Builder()
+//                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)        // All emulators
+//                .addTestDevice("6BDCCFE0B77ADFE70C8A163B353CA44E")  // My Nexus 4
+//                .build();
+
+        mAdView.loadAd(adRequest);
+        //End of Ads
     }
 
 

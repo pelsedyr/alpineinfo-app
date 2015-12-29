@@ -25,6 +25,12 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:replace="android:icon" >
+
+
+        <!--This meta-data tag is required to use Google Play Services.-->
+        <meta-data android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
         <activity android:name=".view.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,7 +43,7 @@
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyAK8jhI7G49M8yYAJqdsQLNG0Rgw0GaP4g" />
+            android:value="AIzaSyCYktMzT6WExF9b2qsvrhg2ggc8XQVFsWQ" />
 
         <activity android:name=".view.ResortMapActivity" >
         </activity>
