@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ADULT">Voksen</string>
+    <string name="CATEGORY_HEADER_PREVIEW">Kategori</string>
+    <string name="CLOSED">Stengt</string>
+    <string name="FORECAST_NOT_AVAILABLE"></string>
+    <string name="FRIDAY">Fre</string>
+    <string name="HOURS_FROM">Fra</string>
+    <string name="HOURS_OF_OPERATION">Åpningstider</string>
+    <string name="HOURS_TO">Til</string>
+    <string name="LIFTS">Heiser</string>
+    <string name="LIFT_PRICES">Heiskortpriser</string>
+    <string name="LONG_TERM">Langtid</string>
+    <string name="MODAL_NETWORK_NEGATIVE">Lukk</string>
+    <string name="MODAL_NETWORK_POSITIVE">Prøv igjen</string>
+    <string name="MONDAY">Man</string>
+    <string name="NETWORK_ERROR">Nettverksfeil</string>
+    <string name="NETWORK_ERROR_TIP">Vennligst sjekk nettverkstilkoblingen.</string>
+    <string name="OPEN">Åpen</string>
+    <string name="REFRESHING">Oppdaterer</string>
+    <string name="RESORT">Anlegg</string>
+    <string name="RESORT_HEADER_PREVIEW"></string>
+    <string name="RESORT_TEMPERATURE">Dagens forhold</string>
+    <string name="SATURDAY">Lør</string>
+    <string name="SLOPE">Løype</string>
+    <string name="SLOPES">Løyper</string>
+    <string name="SNOW_LAST_DAY">Døgn</string>
+    <string name="SUNDAY">Søn</string>
+    <string name="TERRAIN">Terreng</string>
+    <string name="THURSDAY">Tor</string>
+    <string name="TODAY">I dag</string>
+    <string name="TODAY_HEADER_PREVIEW"></string>
+    <string name="TUESDAY">Tir</string>
+    <string name="WEATHER_CONDITIONS">Aktuellt</string>
+    <string name="WEATHER_FORECAST">Vær\nVarsel</string>
+    <string name="WEDNESDAY">Ons</string>
+    <string name="WEEKEND">Helg</string>
+    <string name="YOUTH">Ungdom</string>
+    <string name="SNOW_DEPTH">Snø\nDybde</string>
+    <string name="ABOUT_THE_RESORT">Om Anlegget</string>
+    <string name="HELP_TEXT">Dette programmet aggregater data fra nettejenester fungg.no og yr.no. Forfatter av denne aplikasjonen har ingen samarbeid med de tjenestene. Kvaliteten på mottatte data er strengt avhengig av dataene som tilbys av tjenestene. Data som brukes i denne søknaden er kontinuerlig oppdatert av de representerte alpin anleggene seg selv, og det alltid er en mulighet for at enkelte deler av data kan være feil eller mangle helt. Hvis et bilde mangler det vil bli erstattet av den fnugg.no logoen, for manglende værvarselet på {gmd-cloud-off} ikonet brukes.</string>
+    <string name="RESORT_LINK_TEXT">Nettside</string>
+</resources>

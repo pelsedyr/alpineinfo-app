@@ -1,0 +1,46 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '23.0.0'
+    useLibrary 'org.apache.http.legacy'
+
+    defaultConfig {
+        applicationId "com.example.s198569.fnuggno"
+        minSdkVersion 19
+        targetSdkVersion 22
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.google.android.gms:play-services-maps:8.1.0'
+    compile 'com.loopj.android:android-async-http:1.4.8'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'org.immutables:gson:2.1.0.alpha'
+    compile 'com.mikepenz:iconics-core:2.2.0@aar'
+    compile 'com.mikepenz:google-material-typeface:2.2.0.1@aar'
+    compile 'com.mikepenz:fontawesome-typeface:4.4.0.1@aar'
+    compile 'com.mikepenz:octicons-typeface:3.2.0.1@aar'
+    compile 'com.mikepenz:meteocons-typeface:1.1.0.1@aar'
+    compile 'com.mikepenz:community-material-typeface:1.2.65.1@aar'
+    compile 'com.mikepenz:weather-icons-typeface:2.0.10.1@aar'
+    compile 'com.mikepenz:typeicons-typeface:2.0.7.1@aar'
+    //compile 'com.mikepenz:entypo:1.0.0.1@aar'
+    //Animations
+    compile 'com.nhaarman.listviewanimations:lib-core:3.1.0@aar'
+    compile 'com.nhaarman.listviewanimations:lib-manipulation:3.1.0@aar'
+    compile 'com.nhaarman.listviewanimations:lib-core-slh:3.1.0@aar'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.github.2359media:EasyAndroidAnimations:0.8'
+}

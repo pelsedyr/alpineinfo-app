@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/resortThumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        />
+
+        <TextView
+            android:layout_marginTop="45dp"
+            android:id="@+id/resortTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#3e000000"
+            android:text="@string/RESORT_HEADER_PREVIEW"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:shadowColor="@color/inactiveGray"
+            android:shadowDx="-2"
+            android:shadowDy="-2"
+            android:shadowRadius="4"
+            android:paddingLeft="15dp"
+            android:paddingRight="25dp"
+            />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="left"
+        android:layout_below="@+id/resortTitle"
+        android:layout_marginTop="15dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="left"
+            android:background="#3e000000">
+
+            <TextView
+                android:id="@+id/front_resort_temp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="-10"
+                android:textColor="@android:color/white"
+                android:shadowColor="@color/inactiveGray"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="4"
+                android:paddingLeft="15dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\u00B0C"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:shadowColor="@color/inactiveGray"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="4"
+                android:layout_marginLeft="2dp"
+                />
+
+            <TextView
+                android:text="{gmd-cloud-off}"
+                android:id="@+id/front_weather_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:shadowColor="@color/inactiveGray"
+                android:shadowDx="-2"
+                android:shadowDy="-2"
+                android:shadowRadius="4"
+                android:layout_marginLeft="7dp"
+                android:paddingRight="10dp"/>
+
+            <!--<com.mikepenz.iconics.view.IconicsImageView
+                android:id="@+id/front_weather_icon"
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                app:iiv_color="@android:color/white"
+                app:iiv_icon="gmd-cloud-off"
+                android:paddingRight="7dp"
+                />-->
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

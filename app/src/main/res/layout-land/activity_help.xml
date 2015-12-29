@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillViewport="true">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.s198569.fnuggno.view.HelpActivity">
+
+
+    <TextView
+        android:id="@+id/helpHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="25dp"
+        android:text="About"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/res_bck"
+        android:layout_marginTop="-25dp"/>
+
+    <TextView
+        android:id="@+id/helpText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/helpHeader"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="14dp"
+        android:text="@string/HELP_TEXT"/>
+
+
+    <TextView
+        android:id="@+id/poweredHeader"
+        android:layout_below="@id/helpText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="0dp"
+        android:text="Powered By"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/poweredHeader"
+
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:src="@drawable/fnugg"
+            android:layout_weight="1"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:scaleX="0.5"
+            android:scaleY="0.5"
+            android:src="@drawable/yr"
+            android:layout_weight="1"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="-75dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</ScrollView>

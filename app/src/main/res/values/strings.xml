@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name" translatable="false">Fnugg.no</string>
+    <string name="REFRESHING">Refreshing</string>
+    <string name="NETWORK_ERROR">Network Error</string>
+    <string name="NETWORK_ERROR_TIP">Please check your network connection.</string>
+    <string name="MODAL_NETWORK_POSITIVE">Try again</string>
+    <string name="MODAL_NETWORK_NEGATIVE">Quit</string>
+    <string name="MONDAY">Mon</string>
+    <string name="TUESDAY">Tue</string>
+    <string name="WEDNESDAY">Wed</string>
+    <string name="THURSDAY">Thu</string>
+    <string name="FRIDAY">Fri</string>
+    <string name="SATURDAY">Sat</string>
+    <string name="SUNDAY">Sun</string>
+    <string name="FORECAST_NOT_AVAILABLE" translatable="false">N/A</string>
+    <string name="LIFT_PRICES">Lift Prices</string>
+    <string name="ADULT">Adult</string>
+    <string name="YOUTH">Youth</string>
+    <string name="HOURS_OF_OPERATION">Hours of operation</string>
+    <string name="HOURS_FROM">From</string>
+    <string name="HOURS_TO">To</string>
+    <string name="RESORT_HEADER_PREVIEW" translatable="false">Coolest resort</string>
+    <string name="SNOW_DEPTH">Snow\nDepth</string>
+    <string name="SNOW_LAST_DAY">24h</string>
+    <string name="SLOPE">Slope</string>
+    <string name="TERRAIN">Terrain</string>
+    <string name="RESORT">Resort</string>
+    <string name="OPEN">Open</string>
+    <string name="CLOSED">Closed</string>
+    <string name="SLOPES">Slopes</string>
+    <string name="LIFTS">Lifts</string>
+    <string name="RESORT_TEMPERATURE">Resort Temperature</string>
+    <string name="WEATHER_CONDITIONS">Conditions</string>
+    <string name="WEATHER_FORECAST">Weather\nForecast</string>
+    <string name="TODAY">Today</string>
+    <string name="WEEKEND">Weekend</string>
+    <string name="LONG_TERM">Long Term</string>
+    <string name="CATEGORY_HEADER_PREVIEW">Category</string>
+    <string name="TODAY_HEADER_PREVIEW" translatable="false">Today</string>
+    <string name="ABOUT_THE_RESORT">About the Resort</string>
+    <string name="HELP_TEXT">This application aggregates data from webservices fungg.no and yr.no. Author of this application is not by any means affiliated with those services. Therefore quality of the received data is strictly dependent on the data provided by those services. Data used in this application is constantly updated by the ski-resorts themselves and there always exists possibility for some parts of data can be incorrectly formatted or be absent. If an image is missing it will be replaced by the fnugg.no logotype, and for absent weather forecast the {gmd-cloud-off} icon is used.</string>
+    <string name="RESORT_LINK_TEXT">Web Page</string>
+</resources>

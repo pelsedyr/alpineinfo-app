@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="actions">
+        <item>Sørlandet</item>
+        <item>Midt-Norge</item>
+        <item>Nord-Norge</item>
+        <item>Østlandet</item>
+        <item>Sør-Vestlandet</item>
+        <item>Nord-Vestlandet</item>
+    </string-array>
+
+</resources>

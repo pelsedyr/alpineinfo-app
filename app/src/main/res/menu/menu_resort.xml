@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/resort_show_hours"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Hours"
+        android:icon="@drawable/ic_action_action_query_builder"
+        />
+
+
+    <item
+        android:id="@+id/resort_show_prices"
+        android:orderInCategory="200"
+        app:showAsAction="always"
+        android:title="Prices"
+        android:icon="@drawable/ic_action_maps_local_atm"
+        />
+
+    <item
+        android:id="@+id/resort_show_map"
+        android:orderInCategory="300"
+        app:showAsAction="always"
+        android:title="Map"
+        android:icon="@drawable/ic_action_maps_pin_drop"
+        />
+
+
+</menu>

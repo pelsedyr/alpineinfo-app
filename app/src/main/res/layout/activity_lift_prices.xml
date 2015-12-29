@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.s198569.fnuggno.view.LiftPricesActivity">
+
+
+    <TextView
+        android:id="@+id/liftPricesHeader"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/LIFT_PRICES"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/res_bck"
+        android:layout_marginTop="-55dp"/>
+
+
+    <LinearLayout
+        android:id="@+id/lp_header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/liftPricesHeader"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+
+
+
+        <TableLayout
+            android:id="@+id/lp_tb_header"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_weight="1"
+            android:stretchColumns="1"
+            >
+
+            <TableRow android:gravity="center_horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:text="     "
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textStyle="bold"
+                    android:typeface="sans"
+                    android:layout_weight="1"
+                    />
+
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/ADULT"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/YOUTH"
+                    android:textAlignment="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lift_prices_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lp_header_layout"
+        />
+
+
+
+</RelativeLayout>
