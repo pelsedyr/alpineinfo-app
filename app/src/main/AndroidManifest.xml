@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.s198569.fnuggno" >
+    package="com.zilexsoft.alpininfo.fnuggno" >
 
     <permission
-        android:name="com.example.s198569.fnuggno.maps.permission.MAPS_RECEIVE"
+        android:name="com.zilexsoft.alpininfo.fnuggno.maps.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
     <uses-feature
@@ -31,29 +31,29 @@
         <meta-data android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
 
-        <activity android:name=".view.MainActivity" >
+        <activity android:name="com.zilexsoft.alpininfo.fnuggno.view.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.ResortActivity" >
+        <activity android:name="com.zilexsoft.alpininfo.fnuggno.view.ResortActivity" >
         </activity>
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
-            android:value="AIzaSyCYktMzT6WExF9b2qsvrhg2ggc8XQVFsWQ" />
+            android:value="AIzaSyAwW3zsRcBcuQ0dOJNWCHzbV2fDLtnDI4c" />
 
-        <activity android:name=".view.ResortMapActivity" >
+        <activity android:name="com.zilexsoft.alpininfo.fnuggno.view.ResortMapActivity" >
         </activity>
-        <activity android:name=".view.AllResortsMapActivity" >
+        <activity android:name="com.zilexsoft.alpininfo.fnuggno.view.AllResortsMapActivity" >
         </activity>
-        <activity android:name=".view.OpenHoursActivity" >
+        <activity android:name="com.zilexsoft.alpininfo.fnuggno.view.OpenHoursActivity" >
         </activity>
-        <activity android:name=".view.LiftPricesActivity" >
+        <activity android:name="com.zilexsoft.alpininfo.fnuggno.view.LiftPricesActivity" >
         </activity>
-        <activity android:name=".view.HelpActivity" >
+        <activity android:name="com.zilexsoft.alpininfo.fnuggno.view.HelpActivity" >
         </activity>
     </application>
 

@@ -40,4 +40,5 @@
     <string name="ABOUT_THE_RESORT">Om Anlegget</string>
     <string name="HELP_TEXT">Dette programmet aggregater data fra nettejenester fungg.no og yr.no. Forfatter av denne aplikasjonen har ingen samarbeid med de tjenestene. Kvaliteten på mottatte data er strengt avhengig av dataene som tilbys av tjenestene. Data som brukes i denne søknaden er kontinuerlig oppdatert av de representerte alpin anleggene seg selv, og det alltid er en mulighet for at enkelte deler av data kan være feil eller mangle helt. Hvis et bilde mangler det vil bli erstattet av den fnugg.no logoen, for manglende værvarselet på {gmd-cloud-off} ikonet brukes.</string>
     <string name="RESORT_LINK_TEXT">Nettside</string>
+    <string name="app_name" translatable="false">Alpininfo Norge</string>
 </resources>

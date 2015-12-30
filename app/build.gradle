@@ -6,7 +6,7 @@ android {
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
-        applicationId "com.example.s198569.fnuggno"
+        applicationId "com.zilexsoft.alpininfo.fnuggno"
         minSdkVersion 19
         targetSdkVersion 22
         versionCode 1

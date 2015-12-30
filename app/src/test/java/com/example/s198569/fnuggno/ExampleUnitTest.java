@@ -1,4 +1,4 @@
-package com.example.s198569.fnuggno;
+package com.zilexsoft.alpininfo.fnuggno;
 
 import org.junit.Test;
 
