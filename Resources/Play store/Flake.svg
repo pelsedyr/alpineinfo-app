@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:docname="Flake.svg"
+   inkscape:export-filename="/home/luke/Dropbox/HiOA/Kursfiler/h2015/Applikasjonsutvikling_DAVE3600/Obliger/Mappe3/Resurser/Ikoner/AppIcon/AppIcon.png"
+   viewBox="0 0 353.5 353.5"
+   sodipodi:version="0.32"
+   inkscape:export-xdpi="48.880001"
+   version="1.0"
+   inkscape:export-ydpi="48.880001"
+   inkscape:version="0.91 r13725">
+  <defs
+     id="defs4190" />
+  <sodipodi:namedview
+     id="base"
+     inkscape:zoom="0.66926985"
+     borderopacity="1.0"
+     inkscape:current-layer="layer1"
+     inkscape:cx="305.79166"
+     inkscape:guide-bbox="false"
+     inkscape:object-paths="false"
+     inkscape:grid-points="true"
+     inkscape:grid-bbox="true"
+     showgrid="true"
+     grid_units="cm"
+     inkscape:document-units="px"
+     bordercolor="#666666"
+     inkscape:window-x="-8"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:window-y="-8"
+     inkscape:window-width="1680"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     pagecolor="#ffffff"
+     gridtolerance="10000"
+     inkscape:cy="104.72694"
+     inkscape:window-height="997"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       id="GridFromPre046Settings"
+       type="xygrid"
+       originx="0px"
+       originy="0px"
+       spacingx="0.5cm"
+       spacingy="0.5cm"
+       color="#3f3fff"
+       empcolor="#3f3fff"
+       opacity="0.15"
+       empopacity="0.38"
+       empspacing="5" />
+  </sodipodi:namedview>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(-531.91 -478.75)">
+    <path
+       id="rect7469"
+       style="fill:#3f51b5;fill-opacity:1;stroke:none;stroke-width:2"
+       d="m 976.64306,535.82832 c -11.13,0 -20.1,8.96 -20.1,20.09 l 0,241.03 c 0,11.13 8.97,20.09 20.1,20.09 l 241.03004,0 c 11.12,0 20.06,-8.96 20.06,-20.09 l 0,-241.03 c 0,-11.13 -8.94,-20.09 -20.06,-20.09 l -241.03004,0 z m 117.46004,16.59 7.07,0 0.84,28.81 24.53,-14.15 3.56,6.12 -25.37,14.66 25.37,14.62 -3.56,6.16 -24.15,-13.94 1.81,63.28 16.94,-29.34 6.15,3.53 -15.93,27.63 54.87,-29.6 -24.16,-13.97 3.57,-6.15 25.34,14.65 0,-29.28 7.09,0 0,28.35 25.38,-13.69 3.53,6.12 -24.53,15.13 24.53,14.15 -3.53,6.16 -25.38,-14.66 0.03,29.32 -7.12,-0.03 0,-27.88 -55.94,34.47 35.75,0 0,7.09 -36.72,0 56.72,34.97 0,-27.91 7.13,0 -0.03,29.29 25.37,-14.63 3.53,6.13 -24.53,14.18 24.53,15.13 -3.53,6.12 -25.37,-13.68 0,28.34 -7.1,0 0,-29.28 -25.34,14.66 -3.56,-6.16 24.15,-13.97 -54.18,-29.22 15.43,26.75 -6.15,3.53 -16.38,-28.37 -1.78,62.28 24.16,-13.94 3.56,6.16 -25.38,14.62 25.38,14.66 -3.56,6.12 -24.54,-14.15 -0.84,28.81 -7.06,0 -0.84,-28.81 -24.54,14.15 -3.56,-6.12 25.38,-14.66 -25.38,-14.62 3.56,-6.16 24.16,13.94 -1.84,-64.22 -17.5,30.31 -6.16,-3.53 17.53,-30.4 -56.78,30.65 24.16,13.97 -3.57,6.16 -25.34,-14.66 0,29.28 -7.09,0 0,-28.34 -25.38004,13.68 -3.53,-6.12 24.53004,-15.12 -24.53004,-14.16 3.53,-6.16 25.38004,14.66 -0.03,-29.31 7.12,0.03 0,27.87 53.12,-32.75 -32.62,0 0,-7.09 32.97,0 -53.16,-32.75 0,27.87 -7.12,0 0.03,-29.28 -25.38004,14.66 -3.53,-6.16 24.53004,-14.15 -24.53004,-15.16 3.53,-6.09 25.38004,13.65 0,-28.31 7.09,-0.03 0,29.31 25.35,-14.65 3.56,6.15 -24.16,13.94 56.32,30.41 -17.38,-30.13 6.16,-3.53 16.93,29.31 1.82,-63.25 -24.16,13.94 -3.56,-6.16 25.37,-14.62 -25.37,-14.66 3.56,-6.12 24.53,14.15 0.84,-28.81 z"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       id="rect7473"
+       style="fill:#3f51b5;fill-opacity:1;stroke:#007afa;stroke-width:2"
+       d="m 172.53527,505.15082 c -13.91,0 -25.12,11.22 -25.12,25.13 l 0,301.28 c 0,13.91 11.21,25.09 25.12,25.09 l 301.28,0 c 13.91,0 25.1,-11.18 25.1,-25.09 l 0,-301.28 c 0,-13.91 -11.19,-25.13 -25.1,-25.13 l -301.28,0 z m 15.06,17.59 271.16,0 c 12.52,0 22.59,10.08 22.59,22.6 l 0,271.15 c 0,12.52 -10.07,22.6 -22.59,22.6 l -271.16,0 c -12.51,0 -22.59,-10.08 -22.59,-22.6 l 0,-271.15 c 0,-12.52 10.08,-22.6 22.59,-22.6 z"
+       inkscape:connector-curvature="0" />
+  </g>
+  <metadata
+     id="metadata4188">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+        <dc:date>2006-12-26T00:00:00</dc:date>
+        <dc:description />
+        <dc:source>https://openclipart.org/detail/3726/-by--3726</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>hairymnstr</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
